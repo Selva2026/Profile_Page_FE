@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://profilepageiit.netlify.app/api",
 });
 
 API.interceptors.request.use((req) => {
@@ -16,3 +16,4 @@ export const getProfile = () => API.get("/auth/profile");
 export const updateProfile = (data) => API.put("/auth/profile", data);
 
 export default API;
+
