@@ -50,7 +50,7 @@ export default function Register() {
           Already have account?{" "}
           <span
             className="text-blue-600 cursor-pointer"
-            onClick={() => navigate("/login")}
+            onClick={() => navigate("/")}
           >
             Login
           </span>
@@ -59,3 +59,4 @@ export default function Register() {
     </div>
   );
 }
+
