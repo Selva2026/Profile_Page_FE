@@ -40,7 +40,7 @@ export default function Login() {
           New user?{" "}
           <span
             className="text-blue-600 cursor-pointer"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/register")}
           >
             Register
           </span>
@@ -49,3 +49,4 @@ export default function Login() {
     </div>
   );
 }
+
