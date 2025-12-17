@@ -21,13 +21,13 @@ export default function Profile() {
     setUser(res.data);
 
     setMsg("Profile updated");
-    navigate("/login");
+    navigate("/");
 
   };
 
   const logout = () => {
     localStorage.removeItem("token");
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -49,3 +49,4 @@ export default function Profile() {
     </div>
   );
 }
+
